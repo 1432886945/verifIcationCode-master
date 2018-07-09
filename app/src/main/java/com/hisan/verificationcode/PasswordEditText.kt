@@ -17,7 +17,7 @@ class PasswordEditText @JvmOverloads constructor(context: Context, attrs: Attrib
     private var mPaint: Paint? = null
     // 一个字符所占的宽度
     private var mPasswordItemWidth: Int = 0
-    // 验证码的个数默认为6位数
+    // 字符的个数默认为6位数
     private val mPasswordNumber = 6
     // 背景边框颜色
     private var mBgColor = R.color.home_titel
@@ -29,7 +29,7 @@ class PasswordEditText @JvmOverloads constructor(context: Context, attrs: Attrib
     private var mDivisionLineColor = mBgColor
     // 分割线的大小
     private var mDivisionLineSize = 1
-    // 密码颜色
+    // 字符颜色
     private var mPasswordColor = mDivisionLineColor
     private var isPass:Boolean?=false
 
@@ -112,7 +112,7 @@ class PasswordEditText @JvmOverloads constructor(context: Context, attrs: Attrib
     }
 
     /**
-     * 绘制密码
+     * 绘制字符
      */
     @SuppressLint("ResourceAsColor")
     private fun drawHidePassword(canvas: Canvas) {
@@ -148,7 +148,7 @@ class PasswordEditText @JvmOverloads constructor(context: Context, attrs: Attrib
     }
 
     /**
-     * 添加密码
+     * 添加字符
      */
     fun addPassword(number: String) {
         var number = number
@@ -165,7 +165,7 @@ class PasswordEditText @JvmOverloads constructor(context: Context, attrs: Attrib
     }
 
     /**
-     * 删除最后一位密码
+     * 删除最后一位字符
      */
     fun deleteLastPassword() {
         var currentText = text.toString().trim { it <= ' ' }
@@ -184,6 +184,7 @@ class PasswordEditText @JvmOverloads constructor(context: Context, attrs: Attrib
         this.passwordFullListener = passwordFullListener
     }
 
+    //设置是否切换模式
     fun setIsPass(mIsPass:Boolean){
         isPass=mIsPass
         if (text.isNotEmpty()) setText("")
