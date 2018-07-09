@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.king.thread:nevercrash-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nevercrash-1.0.0.aar/179d7435fdf57a2554a171dcd2c3aa3c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nevercrash-1.0.0.aar/179d7435fdf57a2554a171dcd2c3aa3c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.king.thread/nevercrash/1.0.0/f21ed8bd7863dbbf9082279bb8004fca3f921d6e/nevercrash-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
