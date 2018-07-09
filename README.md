@@ -8,7 +8,8 @@
             }
 
         dependencies {
-                implementation 'com.github.1432886945:verifIcationCode:V1.0.0'
+               	        implementation 'com.github.1432886945:verifIcationCode-master:v1.0.0
+
         }
 
 
