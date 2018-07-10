@@ -11,7 +11,8 @@
                	        implementation 'com.github.1432886945:verifIcationCode-master:v1.0.0
 
         }
-
+        
+  ![image](https://github.com/1432886945/verifIcationCode-master/blob/master/1530770475298.gif)
 
 
          //初始化
@@ -45,4 +46,4 @@
                 })
 
 
-    ![image](https://github.com/1432886945/verifIcationCode-master/blob/master/1530770475298.gif)
+  
